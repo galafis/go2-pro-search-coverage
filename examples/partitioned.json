@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "scenarioId": "partitioned-floor",
+  "source": "synthetic",
+  "grid": [
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0]
+  ],
+  "start": [0, 0],
+  "cellSizeM": 0.5,
+  "maxSteps": 60,
+  "coordinateFrame": "local-grid"
+}

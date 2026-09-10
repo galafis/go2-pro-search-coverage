@@ -1,0 +1,47 @@
+[
+  {
+    "file": "nominal.json",
+    "report": "nominal.report.json",
+    "label": {
+      "en": "Open training floor",
+      "pt": "Piso de treinamento livre"
+    },
+    "expectedStatus": "complete"
+  },
+  {
+    "file": "limited.json",
+    "report": "limited.report.json",
+    "label": {
+      "en": "Limited movement budget",
+      "pt": "Orçamento de movimento reduzido"
+    },
+    "expectedStatus": "review-notes"
+  },
+  {
+    "file": "partitioned.json",
+    "report": "partitioned.report.json",
+    "label": {
+      "en": "Disconnected rooms",
+      "pt": "Salas desconectadas"
+    },
+    "expectedStatus": "review-notes"
+  },
+  {
+    "file": "exclusion.json",
+    "report": "exclusion.report.json",
+    "label": {
+      "en": "Excluded training area",
+      "pt": "Área excluída do treinamento"
+    },
+    "expectedStatus": "complete"
+  },
+  {
+    "file": "stationary.json",
+    "report": "stationary.report.json",
+    "label": {
+      "en": "Stationary review",
+      "pt": "Revisão sem movimento"
+    },
+    "expectedStatus": "review-notes"
+  }
+]

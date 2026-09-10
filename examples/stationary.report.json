@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "analysisVersion": "0.1.0",
+  "projectId": "go2-pro-search-coverage",
+  "scenarioId": "stationary-review",
+  "source": "synthetic",
+  "status": "review-notes",
+  "metrics": [
+    {
+      "key": "coveragePct",
+      "label": {
+        "en": "Reachable coverage",
+        "pt": "Cobertura alcançável"
+      },
+      "value": 4.166667,
+      "unit": "%"
+    },
+    {
+      "key": "visitedCells",
+      "label": {
+        "en": "Visited cells",
+        "pt": "Células visitadas"
+      },
+      "value": 1,
+      "unit": ""
+    },
+    {
+      "key": "steps",
+      "label": {
+        "en": "Movement steps",
+        "pt": "Passos de movimento"
+      },
+      "value": 0,
+      "unit": ""
+    },
+    {
+      "key": "distanceM",
+      "label": {
+        "en": "Modeled distance",
+        "pt": "Distância do modelo"
+      },
+      "value": 0,
+      "unit": "m"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "BUDGET_LIMIT",
+      "message": {
+        "en": "The greedy search stopped to preserve its modeled return budget.",
+        "pt": "A busca gulosa parou para preservar o orçamento de retorno do modelo."
+      }
+    }
+  ],
+  "records": [
+    {
+      "step": 0,
+      "cell": [0, 0],
+      "phase": "start",
+      "newVisit": true
+    }
+  ],
+  "grid": [
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0]
+  ],
+  "path": [[0, 0]],
+  "cellSizeM": 0.5,
+  "coordinateFrame": "local-grid",
+  "reachableCells": 24,
+  "unreachableCells": 0,
+  "unvisitedReachableCells": 23,
+  "returned": true,
+  "budgetRemainingSteps": 0
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "analysisVersion": "0.1.0",
+  "projectId": "go2-pro-search-coverage",
+  "scenarioId": "limited-budget",
+  "source": "synthetic",
+  "status": "review-notes",
+  "metrics": [
+    {
+      "key": "coveragePct",
+      "label": {
+        "en": "Reachable coverage",
+        "pt": "Cobertura alcançável"
+      },
+      "value": 20.833333,
+      "unit": "%"
+    },
+    {
+      "key": "visitedCells",
+      "label": {
+        "en": "Visited cells",
+        "pt": "Células visitadas"
+      },
+      "value": 5,
+      "unit": ""
+    },
+    {
+      "key": "steps",
+      "label": {
+        "en": "Movement steps",
+        "pt": "Passos de movimento"
+      },
+      "value": 8,
+      "unit": ""
+    },
+    {
+      "key": "distanceM",
+      "label": {
+        "en": "Modeled distance",
+        "pt": "Distância do modelo"
+      },
+      "value": 4,
+      "unit": "m"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "BUDGET_LIMIT",
+      "message": {
+        "en": "The greedy search stopped to preserve its modeled return budget.",
+        "pt": "A busca gulosa parou para preservar o orçamento de retorno do modelo."
+      }
+    }
+  ],
+  "records": [
+    {
+      "step": 0,
+      "cell": [0, 0],
+      "phase": "start",
+      "newVisit": true
+    },
+    {
+      "step": 1,
+      "cell": [1, 0],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 2,
+      "cell": [2, 0],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 3,
+      "cell": [3, 0],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 4,
+      "cell": [4, 0],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 5,
+      "cell": [3, 0],
+      "phase": "return",
+      "newVisit": false
+    },
+    {
+      "step": 6,
+      "cell": [2, 0],
+      "phase": "return",
+      "newVisit": false
+    },
+    {
+      "step": 7,
+      "cell": [1, 0],
+      "phase": "return",
+      "newVisit": false
+    },
+    {
+      "step": 8,
+      "cell": [0, 0],
+      "phase": "return",
+      "newVisit": false
+    }
+  ],
+  "grid": [
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0]
+  ],
+  "path": [
+    [0, 0],
+    [1, 0],
+    [2, 0],
+    [3, 0],
+    [4, 0],
+    [3, 0],
+    [2, 0],
+    [1, 0],
+    [0, 0]
+  ],
+  "cellSizeM": 0.5,
+  "coordinateFrame": "local-grid",
+  "reachableCells": 24,
+  "unreachableCells": 0,
+  "unvisitedReachableCells": 19,
+  "returned": true,
+  "budgetRemainingSteps": 0
+}

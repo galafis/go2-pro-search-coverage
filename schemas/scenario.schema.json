@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/galafis/go2-pro-search-coverage/blob/main/schemas/scenario.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "scenarioId",
+    "source",
+    "grid",
+    "start",
+    "cellSizeM",
+    "maxSteps",
+    "coordinateFrame"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "scenarioId": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"
+    },
+    "source": {
+      "enum": ["synthetic", "manual"]
+    },
+    "grid": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "enum": [0, 1, 2]
+        },
+        "minItems": 1,
+        "maxItems": 30
+      },
+      "minItems": 1,
+      "maxItems": 30
+    },
+    "start": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 29
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "cellSizeM": {
+      "type": "number",
+      "minimum": 0.01,
+      "maximum": 100
+    },
+    "maxSteps": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000
+    },
+    "coordinateFrame": {
+      "const": "local-grid"
+    }
+  }
+}

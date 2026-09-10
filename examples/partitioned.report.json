@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "analysisVersion": "0.1.0",
+  "projectId": "go2-pro-search-coverage",
+  "scenarioId": "partitioned-floor",
+  "source": "synthetic",
+  "status": "review-notes",
+  "metrics": [
+    {
+      "key": "coveragePct",
+      "label": {
+        "en": "Reachable coverage",
+        "pt": "Cobertura alcançável"
+      },
+      "value": 100,
+      "unit": "%"
+    },
+    {
+      "key": "visitedCells",
+      "label": {
+        "en": "Visited cells",
+        "pt": "Células visitadas"
+      },
+      "value": 8,
+      "unit": ""
+    },
+    {
+      "key": "steps",
+      "label": {
+        "en": "Movement steps",
+        "pt": "Passos de movimento"
+      },
+      "value": 8,
+      "unit": ""
+    },
+    {
+      "key": "distanceM",
+      "label": {
+        "en": "Modeled distance",
+        "pt": "Distância do modelo"
+      },
+      "value": 4,
+      "unit": "m"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "UNREACHABLE_CELLS",
+      "message": {
+        "en": "12 free cells are disconnected from the start.",
+        "pt": "12 células livres estão desconectadas do início."
+      }
+    }
+  ],
+  "records": [
+    {
+      "step": 0,
+      "cell": [0, 0],
+      "phase": "start",
+      "newVisit": true
+    },
+    {
+      "step": 1,
+      "cell": [1, 0],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 2,
+      "cell": [1, 1],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 3,
+      "cell": [1, 2],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 4,
+      "cell": [1, 3],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 5,
+      "cell": [0, 3],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 6,
+      "cell": [0, 2],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 7,
+      "cell": [0, 1],
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 8,
+      "cell": [0, 0],
+      "phase": "return",
+      "newVisit": false
+    }
+  ],
+  "grid": [
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0]
+  ],
+  "path": [
+    [0, 0],
+    [1, 0],
+    [1, 1],
+    [1, 2],
+    [1, 3],
+    [0, 3],
+    [0, 2],
+    [0, 1],
+    [0, 0]
+  ],
+  "cellSizeM": 0.5,
+  "coordinateFrame": "local-grid",
+  "reachableCells": 8,
+  "unreachableCells": 12,
+  "unvisitedReachableCells": 0,
+  "returned": true,
+  "budgetRemainingSteps": 52
+}
