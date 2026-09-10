@@ -1,0 +1,293 @@
+{
+  "scenarioId": "training-floor",
+  "source": "synthetic",
+  "path": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "records": [
+    {
+      "step": 0,
+      "x": 0,
+      "y": 0,
+      "phase": "start",
+      "newVisit": true
+    },
+    {
+      "step": 1,
+      "x": 1,
+      "y": 0,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 2,
+      "x": 2,
+      "y": 0,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 3,
+      "x": 3,
+      "y": 0,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 4,
+      "x": 4,
+      "y": 0,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 5,
+      "x": 5,
+      "y": 0,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 6,
+      "x": 5,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 7,
+      "x": 5,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 8,
+      "x": 5,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 9,
+      "x": 4,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 10,
+      "x": 3,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 11,
+      "x": 2,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 12,
+      "x": 1,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 13,
+      "x": 0,
+      "y": 3,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 14,
+      "x": 0,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 15,
+      "x": 1,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 16,
+      "x": 2,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 17,
+      "x": 3,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 18,
+      "x": 4,
+      "y": 2,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 19,
+      "x": 4,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 20,
+      "x": 3,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 21,
+      "x": 2,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 22,
+      "x": 1,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 23,
+      "x": 0,
+      "y": 1,
+      "phase": "search",
+      "newVisit": true
+    },
+    {
+      "step": 24,
+      "x": 0,
+      "y": 0,
+      "phase": "return",
+      "newVisit": false
+    }
+  ],
+  "reachableCells": 24,
+  "unreachableCells": 0,
+  "unvisitedReachableCells": 0,
+  "visitedCells": 24,
+  "steps": 24,
+  "distanceM": 12.0,
+  "coveragePct": 100.0,
+  "returned": true,
+  "budgetRemainingSteps": 36,
+  "budgetLimited": false
+}

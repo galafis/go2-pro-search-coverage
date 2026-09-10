@@ -3,9 +3,21 @@
 **Rehearse a search route with explicit coverage and a return budget.**  
 **Ensaie uma rota de busca com cobertura explícita e orçamento de retorno.**
 
-[![Checks](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 automated tests / testes automatizados** · **MIT**
+[![Checks](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 browser tests / testes do navegador** · **MIT**
 
 [English](#english) · [Português](#portugues) · [Live demo · Demonstração](https://galafis.github.io/go2-pro-search-coverage/) · [Five examples · Cinco exemplos](#examples)
+
+## Offline analysis · Análise offline
+
+**Python · JavaScript** — an installable Python implementation with a command line, strict input validation and reproducible examples. **Python companion v0.2.0**.
+
+**Python · JavaScript** — implementação Python instalável, com linha de comando, validação rigorosa e exemplos reproduzíveis. **Complemento Python v0.2.0**.
+
+Plan the same deterministic four-neighbor search route in Python, then replan it under several movement budgets. The batch table makes it possible to compare proposed classroom floor plans without repeatedly editing a browser form.
+
+Planeje a mesma rota determinística de busca com quatro vizinhos em Python e repita o planejamento com diferentes orçamentos de movimento. A tabela permite comparar pisos propostos para treinamento sem editar repetidamente o formulário do navegador.
+
+[Install, examples and method / Instalação, exemplos e método](docs/PYTHON.md) · [Executed outputs / Saídas executadas](examples/python/README.md) · [Python tests / Testes Python](python/tests)
 
 ## Workflow · Fluxo de trabalho
 
