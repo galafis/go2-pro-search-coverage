@@ -44,7 +44,7 @@ def main():
                     expected.read_text(encoding="utf-8")
                 ):
                     raise AssertionError(f"Changed output / Saída alterada: {actual.name}")
-            elif actual.read_bytes() != expected.read_bytes():
+            elif actual.read_text(encoding="utf-8") != expected.read_text(encoding="utf-8"):
                 raise AssertionError(f"Changed table / Tabela alterada: {actual.name}")
             checked += 1
     print(f"{checked} offline artifacts verified / artefatos offline verificados")

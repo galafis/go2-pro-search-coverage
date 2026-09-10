@@ -1,0 +1,2 @@
+# Stable fixture bytes on every checkout / Bytes estáveis em qualquer checkout.
+*.csv text eol=lf
