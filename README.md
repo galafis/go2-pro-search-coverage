@@ -1,11 +1,31 @@
 # Go2 PRO Search Coverage
 
-**Rehearse a search route with explicit coverage and a return budget.**  
-**Ensaie uma rota de busca com cobertura explícita e orçamento de retorno.**
+**Coverage planning · Planejamento de cobertura**
 
-[![Checks](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml) · **Working software prototype / Protótipo funcional** · **v0.1.0** · **27 browser tests / testes do navegador** · **MIT**
+<p align="center"><img src="assets/project-overview.svg" width="960" alt="Workflow illustration: Training grid → Budgeted route → Coverage evidence"></p>
 
-[English](#english) · [Português](#portugues) · [Live demo · Demonstração](https://galafis.github.io/go2-pro-search-coverage/) · [Five examples · Cinco exemplos](#examples)
+[![Checks](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml)
+[English](#english) · [Português](#portugues) · [Guided tour / Visita guiada](docs/SHOWCASE.md) · [Validation / Validação](docs/VALIDATION.md)
+
+> **EN:** How much reachable area can be visited while reserving a return?<br>
+> **PT:** Quanto da área alcançável pode ser visitado com retorno reservado?
+
+## Start here · Comece aqui
+
+| Goal · Objetivo | Where to go · Por onde começar |
+| --- | --- |
+| Understand a real example · Entender um exemplo concreto | [Walkthrough / Roteiro](docs/EXPERIMENTS.md) |
+| Reproduce and compare · Reproduzir e comparar | [Evidence tour / Visita às evidências](docs/SHOWCASE.md) |
+| Inspect the checks · Inspecionar as verificações | [Validation record / Registro de validação](docs/VALIDATION.md) · [CI](https://github.com/galafis/go2-pro-search-coverage/actions/workflows/ci.yml) |
+| Explore in the browser · Explorar no navegador | [Public demonstration / Demonstração pública](https://galafis.github.io/go2-pro-search-coverage/) |
+
+**Example result · Resultado do exemplo:** Reachable coverage / Cobertura alcanÃ§Ã¡vel: **100 %**; Visited cells / CÃ©lulas visitadas: **20 **; Movement steps / Passos de movimento: **28 **
+
+**Try a comparison · Experimente uma comparação**<br>
+**EN:** Compare nominal, limited and stationary budgets; distinguish reachable coverage from disconnected free cells.<br>
+**PT:** Compare os orçamentos nominal, limitado e estacionário; separe cobertura alcançável de células desconectadas.
+
+[![Existing application preview / Prévia existente da aplicação](assets/preview-en.svg)](https://galafis.github.io/go2-pro-search-coverage/)
 
 ## Offline analysis · Análise offline
 
@@ -31,6 +51,7 @@ flowchart TD
   D -->|No or complete / Não ou concluído| F["Return to start / Retornar ao início"]
   F --> G["Coverage report / Relatório de cobertura"]
 ```
+
 
 <a id="english"></a>
 
